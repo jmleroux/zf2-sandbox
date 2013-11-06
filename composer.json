@@ -1,19 +1,15 @@
 {
-    "name": "jmmleroux/zf2-sandbox",
+    "name": "jmleroux/zf2-sandbox",
     "description": "Just a sandbox",
     "repositories": [
-        {"type": "vcs", "url": "git@github.com:jmleroux/ZfcRbac.git"}
+        {"type": "vcs", "url": "https://github.com/jmleroux/ZfcRbac.git"}
     ],
     "require": {
         "php": ">=5.3.3",
-        "zendframework/zendframework": "dev-master",
-        "zf-commons/zfc-rbac": "dev-master",
-        "symfony/serializer": ">=2.1",
-        "jms/metadata": ">=1.3",
+        "jmleroux/zf-simple-auth": "dev-master",
         "phpunit/phpunit": "~3.7",
-        "squizlabs/php_codesniffer": "1.4.*",
-        "satooshi/php-coveralls": "~0.6",
+        "zendframework/zendframework": "dev-master",
         "zendframework/zend-developer-tools": "dev-master",
-        "kriswallsmith/assetic": "dev-master"
+        "zf-commons/zfc-rbac": "dev-refactor"
     }
 }

@@ -66,6 +66,7 @@ return array(
             'route_rules' => array(
                 'home' => array('*'),
                 'login' => array('*'),
+                'logout' => array('*'),
                 'bar' => array('admin'),
             ),
 
